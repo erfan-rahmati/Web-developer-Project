@@ -31,3 +31,130 @@ body {
 }
 
 /* Start Project */
+
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* Start Project = Header-Top */
+
+.header-top {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1280px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.header-logo {
+    width: 250px;
+    height: 39px;
+}
+
+.menu {
+    list-style-type: none;
+    width: 100%;
+    max-width: 696px;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.menu__item {
+    display: flex
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #363636;
+}
+
+.header-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 135px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F5F5F5;
+    background-color: #363636;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+/* Start Project = Header-Bottom */
+
+.header-content {
+    display: flex;
+}
+
+.header-content__wrapper {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.header-bottom__img {
+    width: 100%;
+    max-width: 1280px;
+    border-radius: 10px;
+    grid-column: 1/5;
+    margin-top: 15px;
+}
+
+.header-bottom__btn {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    margin-left: 140px;
+    gap: 10px;
+}
+
+
+.header-btn__left {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCC01;
+    color: #F5F5F5;
+    font-size: 18px;
+    width: 100%;
+    max-width: 190px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.header-btn__right {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363636;
+    color: #F5F5F5;
+    font-size: 18px;
+    width: 100%;
+    max-width: 190px;
+    border-radius: 10px;
+    height: 50px;
+}
