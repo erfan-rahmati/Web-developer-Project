@@ -647,3 +647,77 @@ body {
     height: 380px;
     border-radius: 10px;
 }
+
+/* Start Project = Main-Works */
+
+.main-works {
+    text-align: center;
+}
+
+.main-works__wrapper {
+    display: flex;
+    margin-top: 2rem;
+    height: 385px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-works__title {
+    color: #FFCC01;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.main-works__bio {
+    color: #F5F5F5;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.works-content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.works-content__item {
+    flex-basis: 20rem;
+    height: 160px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.works-content__title {
+    color: #FFCC01;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 1px 4px 20px 0px;
+    border-radius: 10px;
+}
+
+.works-content__text {
+    color: #F5F5F5;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    line-height: 2.5rem;
+    max-width: 20rem;
+}
